@@ -1,0 +1,51 @@
+    1  mkdir tutorial_terminado
+    2  mkdir tutorial_terminal
+    3  cd tutorial_terminal
+    4  touch hello_world.py
+    5  nano hello_world.py
+    6  mkdir scripts_python
+    7  mv hello_world.py scripts_python
+    8  mkdir scripts_bash
+    9  cd scripts_bash
+   10  touch ejecuta_python.sh
+   11  nano ejecuta_python.sh
+   12  chmod +x ejecuta_python.sh
+   13  ./ejecuta_python.sh
+   14  cd ..
+   15  cd scripts_python
+   16  cp hello_world.py copia_hello_world.py
+   17  nano copia_hello_world.py
+   18  cd ..
+   19  mkdir res
+   20  cd res
+   21  cd ..
+   22  nano copia_hello_world.py
+   23  cd
+   24  cd res
+   25  touch test.txt
+   26  cd tutorial_terminal
+   27  cd scripts_python
+   28  cd workspace
+   29  cd
+   30  cd work
+   31  cd tutorial_terminal
+   32  cd scripts_python/
+   33  python3 copia_hello_world.py
+   34  nano copia_hello_world.py
+   35  python3 copia_hello_world.py
+   36  nano copia_hello_world.py
+   37  python3 copia_hello_world.py 
+   38  rm hello_world.py
+   39  ls
+   40  cd ..
+   41  cat res/test.txt
+   42  mkdir data
+   43  cd data
+   44  wget https://getsamplefiles.com/download/tar/sample-1.tar
+   45  tar -xvf sample-1.tar
+   46  wget https://getsamplefiles.com/download/tar/sample-1.tar
+   47  tar -xvf sample-1.tar
+   48  find -name "*.jpg"
+   49  pwd
+   50  history
+   51  history > revisalefelix.txt
